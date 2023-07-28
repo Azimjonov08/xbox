@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Ropa Sans;
+}
+
+body::before {
+    content: "";
+    width: 406px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/pristavka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    height: 80px;
+    width: 1350px;
+    background-color: black;
+    margin-bottom: 570px;
+    position: absolute;
+}
+
+.icon {
+    width: 140px;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.nav-btn {
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #08AD2C;
+    border: none;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 800px;
+}
+
+.box {
+    position: absolute;
+}
+
+.box-title {
+    width: 661px;
+    height: 183px;
+    color: white;
+    text-align: center;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-text {
+    width: 420px;
+    height: 51px;
+    margin-left: 120px;
+    color: #B5B5B5;
+    text-align: center;
+    font-family: Ropa Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-img {
+    width: 473px;
+    height: 457px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    position: absolute;
+
+}
